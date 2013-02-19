@@ -1,0 +1,33 @@
+1.多语言的问题
+英文、简体、繁体（暂时只处理简体）
+建资源
+
+2.bootstrap使用方法 
+
+3.License信息
+
+4.IPV6 暂时不支持
+
+5.用户管理
+用户信息包括：用户名、角色、组、其它附加信息。
+使用Ion Auth 2
+（1）安装Ion Auth 2,建数据库，拷贝相应文件
+（2）修改system/application/config/ion_auth.php 中的配置项
+（3）自动加载Ion Auth 2类库
+ system/application/config/autoload.php中
+ $autoload['libraries'] = array('database','session','email','ion_auth');
+（4）构造自己的Controller
+  $this->ion_auth->logged_in(); 利用这个来判断是否登录
+
+
+
+6.界面 extjs bootstrap
+登录。框架
+
+
+7.自定义设备名
+$diyfilename = '/usr/mysys/comname.txt';//设备名自己取得
+显示在首页的标题栏
+
+8.程序结构
+（1）maincontroller

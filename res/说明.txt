@@ -1,0 +1,52 @@
+（一）数据库结构
+Mysql源
++------------------------+
+| Database               |
++------------------------+
+| schedule-task          |
+| stat-daily-2012-07-22  |
+| stat-hourly-2012-09-13 |
+| stat-monthly-2012-07   |
+| stat-raw-2012-08-14    |
+| stat-weekly-2012-07-22 |
+| sysconfig              |
+| syslog                 |
+| syslog-db-event        |
+| syslog-db-manager      |
+| sysparam               |
++------------------------+
+duyun.uicp.cn 2222 13061
+root:123456
+目前建在内网上
+-------------------------
+（二）测试环境
+远程连接：
+duyun.uicp.cn
+TIDERWAY\Administrator
+tiderway3188@5A-2
+
+目前版本的地址：
+https://tiderway.uicp.cn:8080
+用户名：admin
+密码：tiderway3188-50
+
+（三）公共邮箱
+tiderway@yahoo.cn
+tiderway3188
+
+（四）程序说明
+主要界面分两部分，一个是配置，一个是日志 
+配置信息都不经过mysql的
+因为许多是其他配置文件，还有内核配置，有一小部分是mysql的，所以目前的架构里有专门的 api接口层的，调用并接受返回信息就可以的。 
+ 所有报表型的数据都是mysql的一个数据库
+所有控制类的都是原来的php的函数来实现的，可以将php封装为接口后远程调用
+实时数据是flash形式的xml方式来更新的
+实时数据的刷新时间不确定，是通过调用一个cgi-bin的，只要调用就有返回，大概5s吧
+登录页面后，.../cgi-bin/realtimemonitor.cgi 就是一个实时更新的xml文件
+
+(五）Git rsa passphrase
+password123
+
+Github 账号同公用信箱
+https://github.com/tideyway/tdwayphp.git 仓库
+
