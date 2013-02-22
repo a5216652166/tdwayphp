@@ -35,7 +35,9 @@
           Hello, World!
         </h1>
         <p>
-          I'm a super hero!
+          I have log in!
+          <?php echo $this->ion_auth->user()->row()->username ?>
+          <?php $this->load->helper('url');echo siteurl('auth/login') ?>
         </p>
       </div>
 	</div>

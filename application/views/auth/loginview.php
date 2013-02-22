@@ -97,7 +97,7 @@ body {
                         <!-- container -->
                         
                         <div class="loginForm">                                
-                                < form class="form-signin"  action="<?php echo site_url('auth/login') ?>" method="post" accept-charset="utf-8" >
+                                <form class="form-signin"  action="<?php echo site_url('auth/login') ?>" method="post" accept-charset="utf-8" >
                                         <div class="control-group warning">
                                                 <label class="control-label" for="lang">
                                                         选择语言:
@@ -115,8 +115,8 @@ body {
                                                                 </option>
                                                         </select>
                                                 </div>
-                                                <input type="text" name="identity" class="input-block-level" placeholder="用户名/Email" value="<?php echo $identity['value'] ?>">
-                                                <input type="password" name="password" class="input-block-level" placeholder="密码">
+                                                <input type="text" name="identity" class="input-block-level" placeholder="用户名/Email" value="<?php echo $identity['value'] ?>" >
+                                                <input type="password" name="password" class="input-block-level" placeholder="密码" >
                                         </div>
                                         <button class="btn btn-large btn-primary btn-custom" type="submit">
                                                 登录

@@ -15,7 +15,7 @@ class Auth extends CI_Controller {
 		$this->load->library('mongo_db') :
 
 		$this->load->database();
-        //���ô���ֽ�� Ĭ��Ϊ<p></p>
+        //设置错误分界符 默认为<p></p>
 		$this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
 	}
 
@@ -25,18 +25,20 @@ class Auth extends CI_Controller {
 
 		if (!$this->ion_auth->logged_in())
 		{
-			//redirect them to the login page
-			redirect($BASEPATH.'auth/login', 'refresh');
+			//redirect them to the login page 切换到login页面
+			redirect('auth/login', 'refresh');
 		}
 		elseif (!$this->ion_auth->is_admin())
 		{
 			//redirect them to the home page because they must be an administrator to view this
+            //admin角色
 			redirect('/', 'refresh');
 		}
 		else
 		{
 			//set the flash data error message if there is one
-			$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
+			//普通用户 显示用户列表页面
+            $this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
 
 			//list the users
 			$this->data['users'] = $this->ion_auth->users()->result();
@@ -54,38 +56,45 @@ class Auth extends CI_Controller {
 	{
 		$this->data['title'] = "Login";
 
-		//����form��֤
-		$this->form_validation->set_rules('identity', 'Identity', 'required');
-		$this->form_validation->set_rules('password', 'Password', 'required');
+		//设置form验证
+		$this->form_validation->set_rules('identity', 'identity', 'required');
+		$this->form_validation->set_rules('password', 'password', 'required');
 
-		if ($this->form_validation->run() == true)
+		if ($this->form_validation->run() == true)//验证通过
 		{
-			//check to see if the user is logging in
+			log_message('info', 'TiderWay:验证通过form validated');
+            //check to see if the user is logging in
 			//check for "remember me"
-			$remember = (bool) $this->input->post('remember');
-
+			//$remember = (bool) $this->input->post('remember');
+            $remember = FALSE;//不使用remember参数
 			if ($this->ion_auth->login($this->input->post('identity'), $this->input->post('password'), $remember))
 			{
 				//if the login is successful
 				//redirect them back to the home page
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
+                log_message('info', 'TiderWay:登录成功'.$this->ion_auth->messages());
 				redirect('/', 'refresh');
 			}
 			else
 			{
 				//if the login was un-successful
 				//redirect them back to the login page
+                //设置闪出数据为错误信息
 				$this->session->set_flashdata('message', $this->ion_auth->errors());
-				redirect('auth/login', 'refresh'); //use redirects instead of loading views for compatibility with MY_Controller libraries
+				log_message('info', 'TiderWay:登录错误'.$this->ion_auth->errors());
+                redirect('auth/login', 'refresh'); //use redirects instead of loading views for compatibility with MY_Controller libraries
 			}
 		}
 		else
 		{
 			//the user is not logging in so display the login page
 			//set the flash data error message if there is one
+            //CodeIgniter 支持 "闪出数据", 或者说Session数据只对下次服务器请求可用, 然后会自动清除。这应该会非常有用，往往应用在信息或状态提示中（例如：“记录2已删除”）。
+            //注意: 闪出数据变量名以“flash_”开头，所以在你自己的变量名中要避免使用这个前缀。 
+            //显示闪出数据
 			$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
-
-			$this->data['identity'] = array('name' => 'identity',
+			log_message('info', 'TiderWay:验证错误'.validation_errors());
+            $this->data['identity'] = array('name' => 'identity',
 				'id' => 'identity',
 				'type' => 'text',
 				'value' => $this->form_validation->set_value('identity'),
@@ -95,7 +104,7 @@ class Auth extends CI_Controller {
 				'type' => 'password',
 			);
 
-			$this->_render_page('auth/login', $this->data);
+			$this->_render_page('auth/loginview', $this->data);//load view 显示
 		}
 	}
 
@@ -192,7 +201,7 @@ class Auth extends CI_Controller {
 			);
 
 			if ( $this->config->item('identity', 'ion_auth') == 'username' ){
-				$this->data['identity_label'] = 'Username';
+				$this->data['identity_label'] = '用户名';
 			}
 			else
 			{
@@ -201,7 +210,7 @@ class Auth extends CI_Controller {
 
 			//set any errors and display the form
 			$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
-			$this->_render_page('auth/forgot_password', $this->data);
+			$this->_render_page('auth/forgot_passwordview', $this->data);//显示
 		}
 		else
 		{
