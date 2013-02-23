@@ -115,8 +115,8 @@ body {
                                                                 </option>
                                                         </select>
                                                 </div>
-                                                <input type="text" name="identity" class="input-block-level" placeholder="用户名/Email" value="<?php echo $identity['value'] ?>" >
-                                                <input type="password" name="password" class="input-block-level" placeholder="密码" >
+                                                <input type="text" name="identity" class="input-block-level" placeholder="用户名/Email" value="<?php echo $identity['value'] ?>" autofocus required>
+                                                <input type="password" name="password" class="input-block-level" placeholder="密码"  required>
                                         </div>
                                         <button class="btn btn-large btn-primary btn-custom" type="submit">
                                                 登录
@@ -145,5 +145,9 @@ body {
                         </script>
                         <script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>">
                         </script>
+                        <script src="<?php echo base_url('assets/js/iepatch.js') ?>">
+                        </script>
+                        
+                        
         </body>
 </html>

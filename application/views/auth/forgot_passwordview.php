@@ -84,7 +84,7 @@ body {
 			}
                 </style>
         </head>
-        <body onload="document.getElementById('user_name').focus();">
+        <body onload="document.getElementById('email').focus();">
                 <div class="navbar navbar-fixed-top">
                         <!-- TopBar -->
                         <div class="navbar-inner">
@@ -103,7 +103,7 @@ body {
                                                         找回密码:请输入你注册的<?php echo $identity_label; ?>，系统将通过Email重置你的密码。
                                                 </label>
                                                 <div id="infoMessage" class="help-inline"><strong><?php echo $message;?></strong></div>
-                                                <input type="text" name="email" class="input-block-level" placeholder="<?php echo $identity_label; ?>" >                                                
+                                                <input type="text" name="email" class="input-block-level" placeholder="<?php echo $identity_label; ?>" autofocus required>                                                
                                         </div>
                                         <button class="btn btn-large btn-primary btn-custom" type="submit">
                                                 确定
@@ -115,7 +115,7 @@ body {
                                         </button>
 										<span class="help-inline">
                                         </span>
-										
+										<a class="brand" href="/">返回首页</a>
                                 </form>
                                 <!-- Footer================================================== 显示返回信息-->
                                 
@@ -131,6 +131,8 @@ body {
                         <script src="<?php echo base_url('assets/js/jquery.min.js') ?>">
                         </script>
                         <script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>">
+                        </script>
+                        <script src="<?php echo base_url('assets/js/iepatch.js') ?>">
                         </script>
         </body>
 </html>
