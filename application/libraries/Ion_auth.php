@@ -500,3 +500,5 @@ class Ion_auth
 	}
 
 }
+
+/* End of file Ion_auth.php */

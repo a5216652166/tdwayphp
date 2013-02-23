@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "mainpage";
 $route['404_override'] = '';
+$route['realmonitor/(:any)'] = "real_monitor/$1";
 
 
 /* End of file routes.php */

@@ -20,7 +20,7 @@ class Blog extends CI_Controller {
  }
  function comments()
  {
-  echo '¿´ÕâÀï£¡';
+  echo 'ï¿½ï¿½ï¿½ï¿½ï¿½ï£¡';
  }
 
 }
