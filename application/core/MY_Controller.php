@@ -5,7 +5,8 @@ class MY_Controller extends CI_Controller
    {
       parent::__construct();
       $this->config->set_item('language', 'zh_cn');
-      $this->load->library('Ion_auth'); 	  
+      $this->load->library('Ion_auth');
+      $this->load->helper('url');	  
    }
 }
 
