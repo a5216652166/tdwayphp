@@ -6,6 +6,8 @@ class Real_monitor extends CI_Controller {
  	{
   		parent::__construct();
   		$this->load->model('Line_chart', 'linechart');
+  		$this->load->model('Column_chart', 'columnchart');
+  		$this->load->model('Pie_chart', 'piechart');
   		$this->load->helper('url');
  	}
  	
@@ -51,6 +53,79 @@ class Real_monitor extends CI_Controller {
                  ->set_output(json_encode($data));
 		}
 	}
+	
+	public function columnchart()
+	{
+		try {
+			define('REALMONITORURL', '/cgi-bin/realtimemonitor.cgi', false);
+			$host = 'https://tiderway.uicp.cn:8080';
+			$time = $_GET["time"];
+			if ($time == ""){
+				$time = "time=".time();
+			}else{
+				$time = "update=".$time;
+			}			
+			
+			$language = $_GET['lan'];  //此处可能需要改为从Session取。	
+			$chart = $_GET['chart'];
+			
+		 	$url = $host.REALMONITORURL."?". 
+		 	       $time."&".
+		 		   "lan=".$language."&".
+		 	       "object=home&". 
+		 	       "chart=".$chart."&".
+		 	       "linkcolor=2160B8&linecolor=A1BEEF";
+			
+			$data = $this->columnchart->request_real_monitor_data($url);		
+			
+			$this->output
+    			 ->set_content_type('application/json')
+                 ->set_output(json_encode($data));
+		} catch (Exception $e) {
+			$data = array('Success'=>false, 'Error'=>$e);
+			$this->output
+    			 ->set_content_type('application/json')
+                 ->set_output(json_encode($data));
+		}
+	}
+	
+	public function piechart()
+	{
+		try {
+			define('REALMONITORURL', '/cgi-bin/realtimemonitor.cgi', false);
+			$host = 'https://tiderway.uicp.cn:8080';
+			$time = $_GET["time"];
+			if ($time == ""){
+				$time = "time=".time();
+			}else{
+				$time = "update=".$time;
+			}			
+			
+			$language = $_GET['lan'];  //此处可能需要改为从Session取。	
+			$chart = $_GET['chart'];			
+		 	
+		 	$url = $host.REALMONITORURL."?". 
+		 	       $time."&".
+		 		   "lan=".$language."&".
+		 	       "object=home&". 
+		 	       "chart=".$chart."&".
+		 	       "linkcolor=2160B8&linecolor=A1BEEF";
+			
+			$data = $this->piechart->request_real_monitor_data($url);		
+			
+			$this->output
+    			 ->set_content_type('application/json')
+                 ->set_output(json_encode($data));
+		} catch (Exception $e) {
+			$data = array('Success'=>false, 'Error'=>$e);
+			$this->output
+    			 ->set_content_type('application/json')
+                 ->set_output(json_encode($data));
+		}
+	}
+	
+	
+	
 }
 
 /* End of file real_monitor.php */

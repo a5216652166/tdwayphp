@@ -59,7 +59,7 @@ class Line_chart extends CI_Model {
 	public function get_real_monitor_data_since_last_time($root, $lastRecordTime)
 	{		
 		$data = $this->parse_xml_to_real_monitor_data($root);
-		if ($lastRecordTime == ""){
+		if ($lastRecordTime == ''){
 			return $data;
 		}
 		
@@ -73,7 +73,7 @@ class Line_chart extends CI_Model {
 	
 	public function parse_xml_to_real_monitor_data($root)
 	{		
-		$rows = $root->xpath("/chart/chart_data/row");
+		$rows = $root->xpath('/chart/chart_data/row');
 		$row1 = $rows[0];
 		$row2 = $rows[1];
 		
@@ -93,7 +93,7 @@ class Line_chart extends CI_Model {
 	public function get_index_of_special_time_record($data, $time){	
 		$index = 0;
 		while($record = current($data)){
-			if($record["time"] == $time){
+			if($record['time'] == $time){
 				break;
 			}
 			$index++;;
@@ -105,16 +105,16 @@ class Line_chart extends CI_Model {
 	
 	public function add_date_to_real_monitor_data($data)
 	{
-		$lastDate = date("Y-m-d", strtotime("-1 days"));		
-		$date = date("Y-m-d", time());
+		$lastDate = date('Y-m-d', strtotime('-1 days'));		
+		$date = date('Y-m-d', time());
 		
-		$midnightIndex = $this->get_index_of_special_time_record($data, "00:00:00");
+		$midnightIndex = $this->get_index_of_special_time_record($data, '00:00:00');
 		
 		for($i = 0; $i < $midnightIndex; $i++){
-			$data[$i]["time"] = $lastDate." ".$data[$i]["time"];
+			$data[$i]['time'] = $lastDate.' '.$data[$i]['time'];
 		}	
 		for($i = $midnightIndex; $i < count($data); $i++){
-			$data[$i]["time"] = $date." ".$data[$i]["time"];				
+			$data[$i]['time'] = $date.' '.$data[$i]['time'];				
 		}	
 		
 		return $data;

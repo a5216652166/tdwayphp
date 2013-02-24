@@ -26,7 +26,7 @@ Ext.define('Duyun.controller.ColumnChart',{
 	getRealMonitorData: function(time, ctx){
 		return Wind.Async.Task.create(function(t){
 			Ext.Ajax.request({
-				url: 'data/RequestColumnChartData.php',
+				url: 'realmonitor/columnchart',
 				method: 'GET',
 				success: function(response){
 					var result = Ext.decode(response.responseText);

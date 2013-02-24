@@ -26,7 +26,7 @@ Ext.define('Duyun.controller.PieChart',{
 	getRealMonitorData: function(time, ctx){
 		return Wind.Async.Task.create(function(t){
 			Ext.Ajax.request({
-				url: 'data/RequestPieChartData.php',
+				url: 'realmonitor/piechart',
 				method: 'GET',
 				success: function(response){
 					var result = Ext.decode(response.responseText);
