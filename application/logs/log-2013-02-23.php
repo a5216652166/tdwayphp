@@ -3070,3 +3070,500 @@ DEBUG - 2013-02-23 22:05:25 --> Model Class Initialized
 DEBUG - 2013-02-23 22:05:25 --> Helper loaded: url_helper
 DEBUG - 2013-02-23 22:05:25 --> Final output sent to browser
 DEBUG - 2013-02-23 22:05:25 --> Total execution time: 0.4939
+DEBUG - 2013-02-23 15:46:48 --> Config Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:46:48 --> URI Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Router Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 15:46:48 --> Output Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Security Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Input Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 15:46:48 --> Language Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Loader Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Controller Class Initialized
+ERROR - 2013-02-23 15:46:48 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 15:46:48 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 15:46:48 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 15:46:48 --> Email Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 15:46:48 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 15:46:48 --> Session Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 15:46:48 --> A session cookie was not found.
+DEBUG - 2013-02-23 15:46:48 --> Session routines successfully run
+DEBUG - 2013-02-23 15:46:48 --> Model Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Model Class Initialized
+DEBUG - 2013-02-23 15:46:48 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 15:46:49 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 15:46:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:06 --> Config Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:53:06 --> URI Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Router Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 15:53:06 --> Output Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Security Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Input Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 15:53:06 --> Language Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Loader Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Controller Class Initialized
+ERROR - 2013-02-23 15:53:06 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 15:53:06 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 15:53:06 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 15:53:06 --> Email Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 15:53:06 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 15:53:06 --> Session Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 15:53:06 --> Session routines successfully run
+DEBUG - 2013-02-23 15:53:06 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 15:53:06 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 15:53:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:30 --> Config Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:53:30 --> URI Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Router Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 15:53:30 --> Output Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Security Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Input Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 15:53:30 --> Language Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Loader Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Controller Class Initialized
+ERROR - 2013-02-23 15:53:30 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 15:53:30 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 15:53:30 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 15:53:30 --> Email Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 15:53:30 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 15:53:30 --> Session Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 15:53:30 --> Session routines successfully run
+DEBUG - 2013-02-23 15:53:30 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:30 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 15:53:31 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 15:53:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:31 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 15:53:32 --> Config Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:53:32 --> URI Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Router Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Output Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Security Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Input Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 15:53:32 --> Language Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Loader Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Controller Class Initialized
+ERROR - 2013-02-23 15:53:32 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 15:53:32 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 15:53:32 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 15:53:32 --> Email Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2013-02-23 15:53:32 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 15:53:32 --> Session Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 15:53:32 --> Session routines successfully run
+DEBUG - 2013-02-23 15:53:32 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 15:53:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:32 --> Helper loaded: form_helper
+DEBUG - 2013-02-23 15:53:32 --> Form Validation Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 15:53:32 --> Config Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:53:32 --> URI Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Router Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Output Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Security Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Input Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 15:53:32 --> Language Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Loader Class Initialized
+DEBUG - 2013-02-23 15:53:32 --> Controller Class Initialized
+ERROR - 2013-02-23 15:53:33 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 15:53:33 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 15:53:33 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 15:53:33 --> Email Class Initialized
+DEBUG - 2013-02-23 15:53:33 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2013-02-23 15:53:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 15:53:33 --> Session Class Initialized
+DEBUG - 2013-02-23 15:53:33 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 15:53:33 --> Session routines successfully run
+DEBUG - 2013-02-23 15:53:33 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:33 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:33 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 15:53:33 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 15:53:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:33 --> Helper loaded: form_helper
+DEBUG - 2013-02-23 15:53:33 --> Form Validation Class Initialized
+DEBUG - 2013-02-23 15:53:33 --> Helper loaded: url_helper
+INFO  - 2013-02-23 15:53:33 --> TiderWay:验证错误
+DEBUG - 2013-02-23 15:53:33 --> File loaded: application/views/auth/loginview.php
+DEBUG - 2013-02-23 15:53:33 --> Final output sent to browser
+DEBUG - 2013-02-23 15:53:33 --> Total execution time: 0.3456
+DEBUG - 2013-02-23 15:53:45 --> Config Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:53:45 --> URI Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Router Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Output Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Security Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Input Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 15:53:45 --> Language Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Loader Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Controller Class Initialized
+ERROR - 2013-02-23 15:53:45 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 15:53:45 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 15:53:45 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 15:53:45 --> Email Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2013-02-23 15:53:45 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 15:53:45 --> Session Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 15:53:45 --> Session routines successfully run
+DEBUG - 2013-02-23 15:53:45 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 15:53:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:45 --> Helper loaded: form_helper
+DEBUG - 2013-02-23 15:53:45 --> Form Validation Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 15:53:45 --> Language file loaded: language/english/form_validation_lang.php
+INFO  - 2013-02-23 15:53:45 --> TiderWay:验证通过form validated
+INFO  - 2013-02-23 15:53:45 --> TiderWay:登录成功<p>Logged In Successfully</p>
+DEBUG - 2013-02-23 15:53:45 --> Config Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:53:45 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:53:46 --> URI Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Router Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 15:53:46 --> Output Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Security Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Input Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 15:53:46 --> Language Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Loader Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Controller Class Initialized
+ERROR - 2013-02-23 15:53:46 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 15:53:46 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 15:53:46 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 15:53:46 --> Email Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 15:53:46 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 15:53:46 --> Session Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 15:53:46 --> Session routines successfully run
+DEBUG - 2013-02-23 15:53:46 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Model Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 15:53:46 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 15:53:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 15:53:46 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 15:53:46 --> File loaded: application/views/tiderway/mainform_view.php
+DEBUG - 2013-02-23 15:53:46 --> Final output sent to browser
+DEBUG - 2013-02-23 15:53:46 --> Total execution time: 0.3960
+DEBUG - 2013-02-23 15:53:51 --> Config Class Initialized
+DEBUG - 2013-02-23 15:53:51 --> Hooks Class Initialized
+DEBUG - 2013-02-23 15:53:51 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 15:53:51 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 15:53:51 --> URI Class Initialized
+DEBUG - 2013-02-23 15:53:51 --> Router Class Initialized
+ERROR - 2013-02-23 15:53:51 --> 404 Page Not Found --> app
+DEBUG - 2013-02-23 16:09:15 --> Config Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:09:15 --> URI Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Router Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 16:09:15 --> Output Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Security Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Input Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:09:15 --> Language Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Controller Class Initialized
+ERROR - 2013-02-23 16:09:15 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:09:15 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:09:15 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:09:15 --> Email Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 16:09:15 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:09:15 --> Session Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:09:15 --> A session cookie was not found.
+DEBUG - 2013-02-23 16:09:15 --> Session routines successfully run
+DEBUG - 2013-02-23 16:09:15 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:09:15 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:09:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 16:09:16 --> Config Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:09:16 --> URI Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Router Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Output Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Security Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Input Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:09:16 --> Language Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Controller Class Initialized
+ERROR - 2013-02-23 16:09:16 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:09:16 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:09:16 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:09:16 --> Email Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:09:16 --> Session Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:09:16 --> Session routines successfully run
+DEBUG - 2013-02-23 16:09:16 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:09:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: form_helper
+DEBUG - 2013-02-23 16:09:16 --> Form Validation Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 16:09:16 --> Config Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:09:16 --> URI Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Router Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Output Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Security Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Input Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:09:16 --> Language Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Controller Class Initialized
+ERROR - 2013-02-23 16:09:16 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:09:16 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:09:16 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:09:16 --> Email Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:09:16 --> Session Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:09:16 --> Session routines successfully run
+DEBUG - 2013-02-23 16:09:16 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:09:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: form_helper
+DEBUG - 2013-02-23 16:09:16 --> Form Validation Class Initialized
+DEBUG - 2013-02-23 16:09:16 --> Helper loaded: url_helper
+INFO  - 2013-02-23 16:09:16 --> TiderWay:验证错误
+DEBUG - 2013-02-23 16:09:17 --> File loaded: application/views/auth/loginview.php
+DEBUG - 2013-02-23 16:09:17 --> Final output sent to browser
+DEBUG - 2013-02-23 16:09:17 --> Total execution time: 0.3141
+DEBUG - 2013-02-23 16:09:27 --> Config Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:09:27 --> URI Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Router Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Output Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Security Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Input Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:09:27 --> Language Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Controller Class Initialized
+ERROR - 2013-02-23 16:09:27 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:09:27 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:09:27 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:09:27 --> Email Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2013-02-23 16:09:27 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:09:27 --> Session Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:09:27 --> Session routines successfully run
+DEBUG - 2013-02-23 16:09:27 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:27 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:09:28 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:09:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:28 --> Helper loaded: form_helper
+DEBUG - 2013-02-23 16:09:28 --> Form Validation Class Initialized
+DEBUG - 2013-02-23 16:09:28 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 16:09:28 --> Language file loaded: language/english/form_validation_lang.php
+INFO  - 2013-02-23 16:09:28 --> TiderWay:验证通过form validated
+INFO  - 2013-02-23 16:09:28 --> TiderWay:登录成功<p>Logged In Successfully</p>
+DEBUG - 2013-02-23 16:09:29 --> Config Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:09:29 --> URI Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Router Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 16:09:29 --> Output Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Security Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Input Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:09:29 --> Language Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Controller Class Initialized
+ERROR - 2013-02-23 16:09:29 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:09:29 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:09:29 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:09:29 --> Email Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 16:09:29 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:09:29 --> Session Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:09:29 --> Session routines successfully run
+DEBUG - 2013-02-23 16:09:29 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Model Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:09:29 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:09:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:09:29 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 16:09:29 --> File loaded: application/views/tiderway/mainform_view.php
+DEBUG - 2013-02-23 16:09:29 --> Final output sent to browser
+DEBUG - 2013-02-23 16:09:29 --> Total execution time: 0.3948
+DEBUG - 2013-02-23 16:09:31 --> Config Class Initialized
+DEBUG - 2013-02-23 16:09:31 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:09:31 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:09:31 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:09:31 --> URI Class Initialized
+DEBUG - 2013-02-23 16:09:31 --> Router Class Initialized
+ERROR - 2013-02-23 16:09:31 --> 404 Page Not Found --> app
+DEBUG - 2013-02-23 16:11:08 --> Config Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:11:08 --> URI Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Router Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 16:11:08 --> Output Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Security Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Input Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:11:08 --> Language Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Controller Class Initialized
+ERROR - 2013-02-23 16:11:08 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:11:08 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:11:08 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:11:08 --> Email Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 16:11:08 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:11:08 --> Session Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:11:08 --> Session routines successfully run
+DEBUG - 2013-02-23 16:11:08 --> Model Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Model Class Initialized
+DEBUG - 2013-02-23 16:11:08 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:11:09 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:11:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:11:09 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 16:11:09 --> File loaded: application/views/tiderway/mainform_view.php
+DEBUG - 2013-02-23 16:11:09 --> Final output sent to browser
+DEBUG - 2013-02-23 16:11:09 --> Total execution time: 1.4784
+DEBUG - 2013-02-23 16:11:52 --> Config Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:11:52 --> URI Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Router Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 16:11:52 --> Output Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Security Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Input Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:11:52 --> Language Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Controller Class Initialized
+ERROR - 2013-02-23 16:11:52 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:11:52 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:11:52 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:11:52 --> Email Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 16:11:52 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:11:52 --> Session Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:11:52 --> Session routines successfully run
+DEBUG - 2013-02-23 16:11:52 --> Model Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Model Class Initialized
+DEBUG - 2013-02-23 16:11:52 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:11:53 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:11:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:11:54 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 16:11:54 --> File loaded: application/views/tiderway/mainform_view.php
+DEBUG - 2013-02-23 16:11:54 --> Final output sent to browser
+DEBUG - 2013-02-23 16:11:54 --> Total execution time: 1.4385
+DEBUG - 2013-02-23 16:13:29 --> Config Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:13:29 --> URI Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Router Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> No URI present. Default controller set.
+DEBUG - 2013-02-23 16:13:29 --> Output Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Security Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Input Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-23 16:13:29 --> Language Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Loader Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Controller Class Initialized
+ERROR - 2013-02-23 16:13:29 --> Severity: Warning  --> include_once(application/core/MY_Ion_auth.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\devtools\Apache24\htdocs\application\config\config.php 389
+ERROR - 2013-02-23 16:13:29 --> Severity: Warning  --> include_once() [<a href='function.include'>function.include</a>]: Failed opening 'application/core/MY_Ion_auth.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\devtools\Apache24\htdocs\application\config\config.php 389
+DEBUG - 2013-02-23 16:13:29 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2013-02-23 16:13:29 --> Email Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Language file loaded: language/zh_cn/ion_auth_lang.php
+DEBUG - 2013-02-23 16:13:29 --> Helper loaded: cookie_helper
+DEBUG - 2013-02-23 16:13:29 --> Session Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Helper loaded: string_helper
+DEBUG - 2013-02-23 16:13:29 --> Session routines successfully run
+DEBUG - 2013-02-23 16:13:29 --> Model Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Model Class Initialized
+DEBUG - 2013-02-23 16:13:29 --> Database Driver Class Initialized
+DEBUG - 2013-02-23 16:13:30 --> Helper loaded: date_helper
+DEBUG - 2013-02-23 16:13:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-02-23 16:13:30 --> Helper loaded: url_helper
+DEBUG - 2013-02-23 16:13:30 --> File loaded: application/views/tiderway/mainform_view.php
+DEBUG - 2013-02-23 16:13:30 --> Final output sent to browser
+DEBUG - 2013-02-23 16:13:30 --> Total execution time: 1.4511
+DEBUG - 2013-02-23 16:13:41 --> Config Class Initialized
+DEBUG - 2013-02-23 16:13:41 --> Hooks Class Initialized
+DEBUG - 2013-02-23 16:13:41 --> Utf8 Class Initialized
+DEBUG - 2013-02-23 16:13:41 --> UTF-8 Support Enabled
+DEBUG - 2013-02-23 16:13:41 --> URI Class Initialized
+DEBUG - 2013-02-23 16:13:41 --> Router Class Initialized
+ERROR - 2013-02-23 16:13:41 --> 404 Page Not Found --> app
