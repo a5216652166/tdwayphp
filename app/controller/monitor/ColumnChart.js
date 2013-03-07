@@ -1,7 +1,7 @@
 /**
  * 
  */
-Ext.define('Duyun.controller.ColumnChart',{
+Ext.define('Duyun.controller.monitor.ColumnChart',{
 	extend: 'Ext.app.Controller',
 	stores: ['ColumnChart'],
 	requires: ['Duyun.model.ColumnChart'],

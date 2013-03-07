@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<title>TiderWay Inc</title>
 	<meta charset="utf-8">
@@ -26,6 +26,7 @@
     <link rel="apple-touch-icon-precomposed" href="<?php echo base_url('assets/ico/apple-touch-icon-57-precomposed.png') ?>">	
     
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('extjs/resources/css/ext-all.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/main.css')?>">
     <script type="text/javascript" src="<?php echo base_url('extjs/ext-debug.js')?>"></script>
     <script type="text/javascript" src="<?php echo base_url('lib/wind-all-0.7.3.js')?>"></script>
     <script type="text/javascript" src="<?php echo base_url('app/Application.js')?>"></script>

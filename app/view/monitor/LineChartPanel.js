@@ -2,7 +2,7 @@
  * 
  */
 
-Ext.define('Duyun.view.LineChartPanel',{
+Ext.define('Duyun.view.monitor.LineChartPanel',{
 	extend: 'Ext.panel.Panel',
 	requires: ['Ext.panel.Panel', 'Ext.chart.*'],
 	alias: 'widget.linechartpanel',
@@ -16,7 +16,7 @@ Ext.define('Duyun.view.LineChartPanel',{
     items: [{
         xtype: 'chart',
         style: 'background:#fff',
-        store: 'RealMonitor',
+        store: 'LineChart',
         id: 'chartCmp',
         axes: [{
             type: 'Numeric',

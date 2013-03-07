@@ -3,53 +3,58 @@
  */
 Ext.define('Duyun.view.Viewport', {
     extend: 'Ext.container.Viewport',
-    requires: ['Duyun.view.LineChartPanel', 'Duyun.view.PieChartPanel', 'Duyun.view.ColumnChartPanel'],
-    //requires: ['Duyun.view.ColumnChartPanel'],
     
-    layout: 'fit',
-    
-    initComponent: function() {
-        this.items = {
-            xtype: 'panel',
-            layout: {
-                type: 'hbox',
-                align: 'stretch'
-            },
-            items: [{
-                width: 500,
-                xtype: 'panel',
-                layout: 'fit',
-                items: [{
-                    xtype: 'piechartpanel',
-                    flex: 1
-                }]
-            }, {
-                xtype: 'container',
-                flex: 1,
-                layout: {
-                    type: 'vbox',
-                    align: 'stretch'
-                },
-                items: [{
-                    xtype: 'columnchartpanel',
-                    height: 250
-                }, {
-                    xtype: 'linechartpanel',
-                    layout: 'fit',
-                    flex: 1
-                }]
-            }]
-        };
-//        this.items = {
-//                xtype: 'panel',
-//                layout: 'fit',
-//                items: [{
-//                        xtype: 'piechartpanel',
-//                        layout: 'fit',
-//                        flex: 1
-//                    }]
-//            };
+    layout: 'border',
         
-        this.callParent();
+    initComponent: function() {
+    	var me = this;
+
+        Ext.applyIf(me, {
+            items: [
+                {
+                    xtype: 'panel',
+                    region: 'north',
+                    border: 0,
+                    height: 75,
+                    id: 'pnlTop',
+                    bodyCls: 'pnlTop'
+                },
+                {
+                    xtype: 'treepanel',
+                    region: 'west',
+                    border: 0,
+                    id: 'pnlNavigation',
+                    width: 150,
+                    autoScroll: true,
+                    rowLines: true,
+                    store: 'Navigator',
+                    displayField: 'caption',
+                    rootVisible: false,
+                    useArrows: true,
+                    viewConfig: {
+                        border: 0,
+                        id: 'tvNavigation'
+                    }
+                },
+                {
+                    xtype: 'panel',
+                    region: 'south',
+                    border: 0,
+                    height: 30,
+                    id: 'pnlBottom'
+                },
+                {
+                    xtype: 'panel',
+                    region: 'center',
+                    border: 0,
+                    id: 'pnlCenter',
+                    layout: {
+                        type: 'fit'
+                    }
+                }
+            ]
+        });
+
+        me.callParent(arguments);
     }
 });

@@ -1,7 +1,7 @@
 /**
  * 
  */
-Ext.define('Duyun.view.ColumnChartPanel',{
+Ext.define('Duyun.view.monitor.ColumnChartPanel',{
 	extend: 'Ext.panel.Panel',
 	requires: ['Ext.panel.Panel', 'Ext.chart.*'],
 	alias: 'widget.columnchartpanel',
